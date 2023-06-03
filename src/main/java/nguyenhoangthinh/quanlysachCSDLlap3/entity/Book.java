@@ -69,6 +69,6 @@ public class Book {
        this.category= category;
     }
 
-    public Book(){}
+    public Book(){};
 
 }
