@@ -2,11 +2,12 @@ package nguyenhoangthinh.quanlysachCSDLlap3.entity;
 
 import jakarta.persistence.*;
 
-
+import nguyenhoangthinh.quanlysachCSDLlap3.validator.annotation.ValidUsername;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+
 
 import java.util.ArrayList;
 import java.util.List;

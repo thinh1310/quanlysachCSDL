@@ -1,5 +1,5 @@
 package nguyenhoangthinh.quanlysachCSDLlap3.validator.annotation;
-import com.example.demo.validator.ValidUsernameValidator;
+import nguyenhoangthinh.quanlysachCSDLlap3.validator.annotation.ValidUsernameValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 
