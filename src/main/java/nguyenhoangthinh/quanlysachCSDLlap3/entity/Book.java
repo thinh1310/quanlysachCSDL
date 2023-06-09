@@ -18,7 +18,7 @@ public class Book {
     @NotNull(message = "Title must be not null")
     private String title;
 
-    @Column(name = "author",length = 50)
+    @Column(name = "author", length = 50)
     @Size(max = 50, message = "Title must be less than 50 characters")
     private String author;
 
@@ -69,7 +69,7 @@ public class Book {
     @JoinColumn(name = "category_id", referencedColumnName ="id")
     private Category category;
     @ManyToOne
-    @JoinColumn(name =" user_id", referencedColumnName = "id")
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
     @ValidUserId
     private User user;
 
